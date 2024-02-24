@@ -1,30 +1,67 @@
-# React + TypeScript + Vite
+# Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Typescript app of Notes 
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Notes](#notes)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Technologies Used](#technologies-used)
+  - [Scripts](#scripts)
+  - [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+This project was created as part of studying and comprehending the React and Typescript environment. It also serves as an opportunity to explore and use the Bootstrap CSS framework for styling.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js
+- npm
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/vicleyva/Notes.git
+
+# Change into the project directory
+cd Notes
+
+# Install dependencies
+npm install
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+```bash
+
+# Run the development server
+npm run dev
+
+```
+
+## Technologies Used
+
+- React
+- TypeScript
+- Vite
+- Bootstrap
+- React Router
+- React Select
+- UUID
+
+## Scripts
+
+- dev: Run the Vite development server.
+- build: Build the project using TypeScript and Vite.
+- lint: Run ESLint for linting TypeScript and React files.
+- preview: Preview the production build locally.
+  
+## License
+
+This project is licensed under the MIT License.
